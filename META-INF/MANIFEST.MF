@@ -10,6 +10,6 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.editors
 Bundle-ActivationPolicy: lazy
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Bundle-ClassPath: .,
- lib/coffeescript-lang.jar
+Bundle-ClassPath: lib/coffeescript-lang.jar,
+ .
 Bundle-Vendor: Denis Stepanov
