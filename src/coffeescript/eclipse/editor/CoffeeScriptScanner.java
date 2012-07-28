@@ -112,11 +112,6 @@ public class CoffeeScriptScanner implements ITokenScanner {
 		try {
 			lexerInput = new CoffeeScriptLexerStringInput(document.get(0, document.getLength()));
 			lexers.push(new CSLexer(lexerInput));
-			if (offset > 0) {
-				while (getTokenOffset() + getTokenLength() < offset) {
-					nextToken(); // skip tokens to offset
-				}
-			}
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
