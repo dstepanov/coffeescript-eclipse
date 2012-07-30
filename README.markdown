@@ -8,7 +8,15 @@ http://eclipse.org/
 
 * Syntax highlighting
 
+### UPDATE SITE:
+
+`https://raw.github.com/dstepanov/coffeescript-eclipse/master/coffeescript-eclipse.update-site/`
+
 ### VERSION HISTORY:
+
+* 0.2
+
+  * Bugfixes
 
 * 0.1
 
